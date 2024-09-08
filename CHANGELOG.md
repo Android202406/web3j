@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [4.12.1]() (Upcoming)
+# [4.12.2]() (Upcoming)
 
 ### Bug Fixes
 
@@ -11,8 +11,27 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
+* bump snapshot version to 4.12.2 [#2093](https://github.com/hyperledger/web3j/pull/2093)
+* Adds Support for Linea ENS [#2094](https://github.com/hyperledger/web3j/pull/2094)
+ 
+### BREAKING CHANGES
+
+*
+
+# [4.12.1](https://github.com/hyperledger/web3j/releases/tag/v4.12.1) (2024-08-14)
+
+### Bug Fixes
+
+* Bug fix for Int256 decode range [#2070](https://github.com/hyperledger/web3j/pull/2070)
+* Bug fix for BytesType.bytes32PaddedLength [#2089](https://github.com/hyperledger/web3j/pull/2089)
+* Bug fix for FastRawTransactionManager.resetNonce [#2084](https://github.com/hyperledger/web3j/pull/2084)
+* Fix licence type [#2090](https://github.com/hyperledger/web3j/pull/2090)
+
+### Features
+
 * bump snapshot version to 4.12.1 [#2058](https://github.com/hyperledger/web3j/pull/2058)
 * Update maintainer requirements status [#2064](https://github.com/hyperledger/web3j/pull/2064)
+* Add struct support in java without the need of having a corresponding Java class [#2076](https://github.com/hyperledger/web3j/pull/2076)
 
 ### BREAKING CHANGES
 
